@@ -1,0 +1,35 @@
+
+.normal-text-size {
+    font-weight: 300;
+    font-size: 2rem;
+}
+.story-avatar-img {
+  width: 6rem;
+  margin-left: 1rem;
+}
+.like-icon{
+  color: red;
+}
+
+.post-action-btn-box,
+.post-user-comments-box p:last-child{
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+.post-action-btn-box span:first-child:active,
+.post-user-comments-box p:last-child:active {
+  color: red;
+  transform: translateY(4px);
+}
+
+
+
+.post-comment-text-btn-box div input,
+.post-comment-text-btn-box div div span {
+  border: none;
+  background-color: transparent;
+}
+.post-comment-text-btn-box div div span {
+  padding-left: 0px;
+}
